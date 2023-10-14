@@ -1,35 +1,33 @@
-// Creacion de los Temas(Clases);
 import 'package:flutter/material.dart';
 
 const kPrimaryColor = Color(0xFF843667);
-
 const kSecondaryColor = Color(0xFF022238);
-
-const kLightBackground = Color(0xFFE8F6FB);
-
 const kThirdColor = Color(0xFFFFDCBC);
+const kLightBackground = Color(0xFFE8F6FB);
+const kWhiteColor = Colors.white;
+const kBlackColor = Colors.black;
 
-const KWhiteColor = Colors.white;
-
-const KBlackColor = Colors.black;
-
-
-
-//Tema Grande
 class AppTheme {
   static const kBigTitle = TextStyle(
-    color: KWhiteColor,
+    color: kWhiteColor,
     fontSize: 25,
     fontWeight: FontWeight.bold,
   );
 
-
-//tema para el Bodytext
-  static final KbodyText = TextStyle(
-    color: Colors.grey.shade400,
-    fontSize: 13
+  static const kHeadingOne = TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.bold,
   );
-  
+
+  static const kSeeAllText = TextStyle(color: kPrimaryColor);
+
+  static final kBodyText = TextStyle(
+    color: Colors.grey.shade500,
+    fontSize: 12,
+  );
+
+  static const kCardTitle = TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.bold,
+  );
 }
-
-
